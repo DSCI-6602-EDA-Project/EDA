@@ -1,0 +1,7 @@
+Dataset Descriptions: After running the code to get the basic details of the dataset, I found the following info:
+No of Columns: 7
+No of Rows: 3603
+Range of year: 1952 - 2021
+From the info, I got the column, non-null count, and datatype of each column:
+Column 0 dtype: Object; Column 1 dtype: int64; Column 2 to 6 dtype: float64
+In the dataset, there are 195 unique values under the country column. 

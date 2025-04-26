@@ -1,0 +1,29 @@
+DOCTORS BY COUNTRIES OVER TIME DATASET
+
+- This dataset is from the WHO Global Health Observatory (GHO)
+- This dataset provides information on the number of medical doctors (physicians) per 10,000 population, reported by country and year.
+- It covers a wide range of countries and territories, with data spanning multiple years 
+
+Fields Information;
+- Country/Area: This is country or territory from which the data is reported
+- Year: The reference year for the data point
+- Number of medical doctors (per 10,000 population): The main indicator, representing the density of medical doctors.
+- Generalist medical practitioners (number)	The number of medical doctors who do not limit their practice to certain disease categories or methods of treatment. 
+- Specialist medical practitioners (number) : The number of doctors who have completed advanced education and training in a specific area of medicine.
+- Medical doctors not further defined (number): The number of medical doctors who cannot be clearly classified as either generalists or specialists due to lack of information in the original data source.
+
+Missing Values:
+- We found that there are a lot of missing values.
+- There are:
+Medical doctors (per 10 000 population)          700
+Medical doctors (number)                         160
+Generalist medical practitioners (number)       2270
+Specialist medical practitioners (number)       2351
+Medical doctors not further defined (number)     822
+
+- There is no any values missing in Country and Year column.
+- Since Medical doctors(number) has 160 null values, we are replace it with 0
+
+
+Duplicated Values:
+- We have 0 duplicate values.
