@@ -27,3 +27,12 @@ Medical doctors not further defined (number)     822
 
 Duplicated Values:
 - We have 0 duplicate values.
+
+# Relationship between Medical doctors(number), Generalist medical practitioners (number), Specialist medical practitioners (number), and Medical doctors not further defined (number)  
+
+- Medical doctors(number) = Generalist medical practitioners (number) + Specialist medical practitioners (number) + Medical doctors not further defined (number)  
+
+
+# Mssing values in column medical doctors(per 10000 population)
+- basically, the column medical doctors (per 10000 population ) has missing values from Year 1952. 
+- Since we are not given the population of the country in that year, we will drop the records with missing value in medical doctors(per 10000 population) column
